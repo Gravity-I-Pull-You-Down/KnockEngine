@@ -39,5 +39,3 @@ Surely you can use it in many other ways; and also enhance its ability by adding
 
 **Note:** *I will not take any responsibility of someone else's ill act with my program*. But I do believe that a real learner will learn a lot from this.
 
-This is actually a pre-project for [TrojanCockroach](https://github.com/MinhasKamal/TrojanCockroach).
-
